@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "Amatic-Bold";
+	src: url('../fonts/AmaticSC-Bold.ttf');
+}
+
+body {
+    margin: 0;
+    background-color: rgb(0, 101, 165);
+    font-family: Arial;
+    font-size: 0.95em;
+}
+
+footer, header, main, nav, section, div {
+  display: block;
+}
+
+footer {
+    margin: 40px 0px;
+}
+
+.menu, .content {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex: 1;
+}
+
+.menu {
+    background-color: rgb(38, 38, 38);
+    color: rgb(255, 255, 255);
+    width: 25%;
+    text-transform: uppercase;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 80px;
+    width: 60%;
+    line-height: 1.6em;
+}
+
+.content .separate-content{
+    display: block;
+	border-top: 1px solid;
+    position: relative;
+    left: -10%;
+    width: 120%;
+}
+
+.content .section-one {
+    text-align: center;
+}
+
+.content h2, .content h3 {
+    color: rgb(0, 189, 193);
+    margin: 0;
+}
+
+.content h2 {
+    margin-top: 25px;
+}
+
+.content h3 {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.content .section-one p {
+    text-align: justify;
+}
+
+.content .section-two p {
+    text-align: left;
+}
+
+.content footer p {
+    text-align: center;
+    font-size: 10px;
+}
+
+.picture-left {
+    float: left;
+    margin: 0px 20px 5px 0px;
+}
+
+.menu h1, .menu h2 {
+    font-family: "Amatic-Bold";
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 45px;
+    line-height: 0;
+}
+
+.menu h2 {
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.menu h3 {
+    margin-left: 10px;
+    color: rgb(185, 185, 185);
+}
+
+.menu a {
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+}
+
+.first-list {
+    list-style: none;
+    margin: 0 0 0 25px;
+}
+
+.first-list a {
+    color: rgb(210, 210, 210);
+}
+
+.first-list li {
+    line-height: 25px;
+}
+
+.other-list li {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
